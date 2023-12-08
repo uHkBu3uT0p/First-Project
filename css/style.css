@@ -202,6 +202,7 @@ h3 {
 }
 .left_side_footer {
   display: flex;
+  justify-content: center;
   background-color: #f0ecec;
   margin: 0;
 }
