@@ -1,0 +1,238 @@
+@font-face {
+  font-family: Montserrat-bold;
+  src: url(../Fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: PT Serif;
+  src: url(../Fonts/ofont.ru_PT\ Serif.ttf);
+}
+@font-face {
+  font-family: Deutsch Gothic;
+  src: url(../Fonts/Deutsch\ Gothic.ttf);
+}
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+}
+.conteiner {
+  width: 1440px;
+}
+.header {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 400px 1fr;
+}
+.main {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 400px 1fr;
+}
+.rgb_box {
+  height: 20px;
+  background: rgb(138, 247, 255);
+  background: linear-gradient(
+    90deg,
+    rgb(135, 245, 253) 0%,
+    rgb(138, 235, 255) 54%,
+    rgb(234, 142, 250) 100%
+  );
+}
+/* Left side */
+.logo {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(26, 9, 9, 0.6);
+  background-image: url(../img/logo.png);
+  background-size: cover;
+  border: 15px solid;
+  border-color: #ffffff;
+  display: block;
+  margin: 50px;
+}
+.left_side_header {
+  background-color: #f0ecec;
+}
+.left_side_main {
+  background: rgb(143, 246, 253);
+  background: linear-gradient(
+    rgb(150, 246, 253) 0%,
+    rgb(140, 236, 255) 54%,
+    rgb(240, 153, 255) 100%
+  );
+}
+.left_side_main {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  gap: 50px;
+  line-height: 250%;
+}
+.item_left_side {
+  margin-left: 40px;
+}
+.conteiner {
+  font-size: 15px;
+  font-family: PT Serif;
+  list-style-type: none;
+}
+h2 {
+  font-size: 30px;
+  font-family: Montserrat-bold;
+  padding: 40px 0 20px 0;
+}
+p {
+  font-size: 15px;
+  font-family: PT Serif;
+}
+.contact {
+  list-style-type: none;
+  font-size: 20px;
+  font-family: PT Serif;
+}
+.icon-box {
+  list-style-type: none;
+  font-size: 20px;
+  font-family: PT Serif;
+}
+.skills {
+  width: 300px;
+  padding: 0 0 20px 0;
+}
+.skill-bar {
+  height: 8px;
+  background: #fff;
+  border-radius: 4px;
+}
+.skills-percentage {
+  height: 8px;
+  background: #000000;
+  border-radius: 4px;
+  position: relative;
+  margin: 0;
+}
+/* Right side */
+.right_side_header {
+  border-bottom: 2px solid #999;
+}
+.menu_inner {
+  margin: 25px 0;
+  display: flex;
+  justify-content: space-around;
+}
+.nav {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  color: #999;
+}
+.nav li a {
+  font-size: 20px;
+  font-family: Montserrat-bold;
+  text-transform: uppercase;
+  color: #999;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+.nav li a:hover {
+  background-color: #50dadf;
+  color: #fff;
+  border-radius: 5px;
+}
+.text_about {
+  font-size: 30px;
+  font-family: PT Serif;
+  padding: 40px;
+  text-align: center;
+}
+.right_side_main {
+  display: grid;
+  width: 100%;
+  line-height: 30px;
+}
+.item_right_side {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 20px 0;
+  border-bottom: 2px solid #999;
+}
+.right_main {
+  width: 100%;
+  padding: 0 0 0 40px;
+}
+h3 {
+  font-size: 20px;
+  font-family: Montserrat-bold;
+  color: #000000;
+}
+.notes_box {
+  height: 200px;
+  width: 50px;
+  border: none;
+  border-radius: 0 20px 20px 0;
+  background: #000000;
+  margin: 0;
+}
+.notes_box_text {
+  height: 100%;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-size: 20px;
+  color: #fff;
+  font-family: Montserrat-bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* footer */
+.footer {
+  display: grid;
+  grid-template-columns: 400px 1fr;
+}
+.left_side_footer {
+  display: flex;
+  background-color: #f0ecec;
+  margin: 0;
+}
+.right_side_footer {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  background: rgb(138, 247, 255);
+  background: linear-gradient(
+    90deg,
+    rgb(135, 245, 253) 0%,
+    rgb(138, 235, 255) 54%,
+    rgb(234, 142, 250) 100%
+  );
+}
+.rgb_box_footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 150px;
+  margin: 0;
+}
+p.footer {
+  display: block;
+  font-size: 20px;
+  font-family: PT Serif;
+  color: rgb(0, 0, 0);
+}
+h1 {
+  display: block;
+  font-size: 60px;
+  font-family: Deutsch Gothic;
+  font-weight: normal;
+  color: #050505;
+}
+a.footer {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: PT Serif;
+  color: rgb(0, 0, 0);
+  margin: 0;
+}
